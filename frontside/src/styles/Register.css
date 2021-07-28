@@ -1,0 +1,113 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin:20vh auto;
+    height:60vh;
+    width:60vw;
+    max-width:100%; */
+    
+}
+.register-small{
+padding:.5rem;
+}
+.register-container{
+    margin-top:3rem;
+    background: #615dfa;
+    padding:.1rem 3rem;
+    border-radius:10px;
+}
+.register-header{
+    font-size:2rem;
+    text-align:center;
+    color: var(--text-color);
+    
+}
+.register-subheader{
+    font-size:1.4rem;
+    text-align: center;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.register-dataform{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.register-dataformemail{
+padding:.3rem;
+margin:.5rem 0;
+border-radius:3px;
+outline:none;
+height: 1.5rem;
+width: 100%;
+border:2px solid var(--border-color);
+color:white;
+background-color:#4e4ac8;
+}
+
+.register-dataformpass{
+
+    padding:.3rem;
+    margin:.5rem 0;
+    height: 1.5rem;
+    width:100%;
+    border-radius:3px;
+    outline:none;
+    border:2px solid var(--border-color);
+    color:white;
+    background-color:#4e4ac8;
+}
+
+.register-dataformbtn{
+
+padding:.3rem;
+border-radius:3px;
+border:2px solid var(--border-color);
+background-color:#4e4ac8;
+margin:.5rem auto;
+width:50%;
+height:2.5rem;
+outline:none;
+}
+.register-dataformselect{
+    
+    padding:.3rem;
+    margin:.5rem 0;
+    width:105%;
+    border-radius:3px;
+    outline:none;
+    border:2px solid var(--border-color);
+    color:white;
+    height:2rem;
+    background-color:#4e4ac8;
+
+}
+.register-showpass{
+    position:fixed;
+    top:51%;
+    left:58%;
+    background-color:var(--bg-color);
+    padding:2px;
+    border-radius:2px;
+    color:white;
+    vertical-align: middle;
+    cursor: pointer;
+    }
+
+.register-showcfpass{
+        position:fixed;
+        top:60%;
+        left:58%;
+        background-color:#4e4ac8;
+        padding:2px;
+        border-radius:2px;
+        vertical-align: middle;
+        cursor: pointer;
+        color:white;
+        }

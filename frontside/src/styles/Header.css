@@ -1,0 +1,68 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #615dfa;
+    width:98vw;
+    max-width:100%;
+    margin:0 auto;
+    height:10vh;
+    position: sticky;
+    top:0;
+    z-index: 4;
+}
+
+.header-center{
+
+    background-color:#4e4ac8;
+    border-radius: 5px;
+    flex:0.8;
+    position: relative;
+   
+
+}
+.active{
+    color:'white';
+}
+.header-center input{
+    background: transparent;
+    outline:none;
+    width: 100%;
+    padding:1rem;
+    border:none;
+    
+    border-radius: 5px;
+}
+.header-center .MuiSvgIcon-root{
+    margin-right:.5rem;
+    position: absolute;
+    top:20%;
+    right:2%;
+    color:white;
+
+}
+.header-centersearchclose{
+    position:absolute;
+    top:2%;
+    right:10%;
+    color:white;
+    cursor: pointer;
+    font-size: 1.5rem;
+
+}
+.header-searchusers{
+    margin-top: 5px;
+    position: absolute;
+    background: #4e4ac8;
+    width:100%;
+}
+.header-left{
+    display:flex;
+}
+.header-left .active{
+   background-color:'white';
+}
+.header-leftAvatar{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,93 @@
+.savepostcard{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin:5px;
+    padding:10px;
+    border-radius: 50px;
+    width:250px;
+
+}
+.savepostcard-contentuserinfoavatar{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius:1px 20px 20px 1px;
+    border:2px solid gray;
+    padding:3px;
+  
+
+}
+.savepostcard-contentuserinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4px;
+    border-bottom: 2px solid gray;
+}
+.savepostcard-contentinfodetail{
+   padding:0 10px;
+}
+.savepostcard-contentmiddle{
+    padding:10px 0;
+   
+    border-bottom: 2px solid gray;
+}
+.savepostcard-contentmiddle img,
+.savepostcard-contentmiddle video{
+    width: 100%;
+    border-radius: 40px;
+    object-fit: cover;
+    height: 250px;
+
+}
+.savedpostcard-contentend{
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px 0;
+    border-bottom: 2px solid gray;
+}
+.savedpostcard-contentenditem{
+ display: flex;
+ align-items: center;
+}
+.savedpostcard-contentenditemtext{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 5px;
+    color:rgb(65, 65, 65);
+}
+
+.savedpostcard-contentendtime{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+text-transform: lowercase;
+
+}
+.savedpostcard-contentendtimeformat{
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 5px;
+    color:rgb(65, 65, 65);
+ 
+}
+.savedpostcard-contentendtimetext{
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 39px;
+    color:rgb(65, 65, 65);
+    
+}
+.savepostcard-contentinfodetailfullname{
+    font-weight: 700;;
+    font-size: 14px;
+    color:rgb(29, 28, 28)
+   
+}
+.savepostcard-contentinfodetailusername{
+    font-weight: 400;;
+    font-size: 10px;
+    color:rgb(65, 65, 65);
+  
+   
+}

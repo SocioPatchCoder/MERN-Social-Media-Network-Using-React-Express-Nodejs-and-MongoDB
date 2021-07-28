@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*------it wwill set the default margin and padding to zero ----- */
+
+body {
+ 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(21, 43, 117, 0.746);
+  height:100%;
+  
+}
+
+:root{
+  --text-color: rgb(65, 65, 124);
+  --border-color:rgb(149, 149, 231);
+  --bg-color:rgba(122, 122, 221, 0.726);
+  --success-color:rgb(172, 15, 15);
+}
+
+a{
+  text-decoration: none;
+ 
+ 
+ 
+}

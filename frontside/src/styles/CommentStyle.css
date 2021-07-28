@@ -1,0 +1,121 @@
+.inputpostcomments{
+    display:flex;
+ 
+   justify-content: space-around;
+    padding:5px 3px;
+}
+
+.inputpostcomments-left img{
+    width:40px;
+    height: 40px;
+    border-radius: 10px;
+    object-fit: cover;
+    padding: 2px;
+   
+}
+.inputpostcomments-input{
+    outline:none;
+    border:2px solid gray;
+    color:black;
+    margin:0rem 3px;
+    padding:0 2px;
+}
+
+.inputpostcomments-button{
+
+    background-color: #615dfa;
+    color:'black';
+    width:100px;
+    border: 2px solid gray;
+    padding:3px;
+    border-radius:5px;
+
+
+}
+
+.postCommentCard{
+    background-color: rgb(243, 243, 243);
+    padding:10px;
+    margin:10px;
+    border-radius: 15px;
+    border:2px solid gray;
+    position: relative;
+
+}
+.postCommentCarduser{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 2px;
+  
+}
+.postCommentCardfullname{
+    font-size:1rem;
+    color:black;
+    font-weight:700;
+    letter-spacing: 1.5px;
+}
+.postCommentCardcommentcontent-content{
+    font-weight:500;
+    color:gray;
+}
+.postCommentCardtime{
+    font-size:10px;
+    color:black;
+    font-weight:300;
+}
+.postCommentCardavatar{
+    height: 40px;
+    width:40px;
+    object-fit:cover;
+    border-radius: 10px;
+    margin-right:10px;
+}
+.postCommentCarduserinfo{
+    display: flex;
+   
+
+}
+
+.postCommentCardcommentcontent{
+    padding:10px 5px;
+    border-top: 1px solid gray;
+}
+.postCommentCardavatarcommentcontent-likes{
+    display:flex;
+    margin-top:10px;
+}
+.postCommentCardavatarcommentcontent-reply{
+    margin-left:15px
+}
+.postCommentCardavatarcommentcontent-likescount{
+    margin-right:5px;
+}
+.commentMenuitemlist{
+    position:absolute;
+    background-color: gray;
+    padding:.5rem 1rem;
+    border-radius: 10px;
+    transform: translateX(-50px);
+    z-index:9;
+}
+.commentMenuitemedit{
+    font-size: 10px;;
+    padding:6px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    border-bottom: 1px solid gray;
+}
+.commentMenuitemdelete{
+    font-size: 10px;;
+    padding:6px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    border-bottom: 1px solid gray;
+}
+.postCommentCardLikeButton{
+    position: absolute;
+   transform:translate(350px,-140px);
+  
+  
+}

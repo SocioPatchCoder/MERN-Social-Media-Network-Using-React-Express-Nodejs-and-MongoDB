@@ -1,0 +1,34 @@
+.notfound{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+
+.notfound-text{
+    color: var(--text-color);
+    transform: translate(40vw,40vh);
+    font-size:3rem;
+    font-weight: 500;
+    width:fit-content;
+    border:4px solid var(--border-color);
+    padding:1rem;
+}
+
+.notfound-found {
+
+    color: var(--text-color);
+    transform: translateY(50vh);
+    font-size: larger;
+    font-weight: 600;
+}
+
+.notfound-link {
+    
+    font-weight: 700;
+    border: 1px solid var(--border-color);
+    padding:.5rem;
+    margin:.25rem;
+}

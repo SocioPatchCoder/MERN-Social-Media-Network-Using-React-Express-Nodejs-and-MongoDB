@@ -1,0 +1,30 @@
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading svg{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    animation: text 0.6s ease-in-out infinite;
+    transform: translateX(40px);
+
+}
+
+@keyframes text {
+
+    50%{opacity:0.2}
+    
+}
+
+.loading rect{
+    stroke-dasharray: 40;
+    stroke-dashoffset: 30;
+    animation: dash 0.8s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes dash {
+    to {stroke-dasharray: 100;}
+}

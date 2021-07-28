@@ -1,0 +1,80 @@
+.notifications{
+    background-color: rgb(12, 30, 37);
+    width:700px;
+    max-width:100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 90px 5px 90px 45px;
+    
+}
+
+.notificationheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    border-bottom: 2px solid gray;
+}
+
+.notificationheaderheding{
+    font-size: 1.5rem;
+    color:teal;
+    font-weight: 600;
+}
+.notificationdata{
+   padding:1rem;
+  
+   
+}
+.notificationdata:not(:last-child){
+    border-bottom: 1.5px solid salmon ;
+}
+.notificationdata-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notificationdata-topavatar{
+    width:45px;
+    height: 45px;
+   
+   padding:3px;
+   border-bottom: 1px solid salmon;
+   border-top: 1px solid salmon;
+   
+    object-fit:cover
+}
+
+.notificationdata-topimage{
+    width:45px;
+    height: 45px;
+    object-fit:cover;
+    padding:3px;
+    border-bottom: 1px solid salmon;
+    border-top: 1px solid salmon;
+}
+
+.notificationdata-topsecondhead{
+    color:teal;
+    font-size: 20px;
+    font-weight: 600;
+}
+.notificationdata-topsecondheadtwo{
+    font-size: 15px;
+    font-weight: 500;
+    color:yellowgreen;
+}
+
+.notificationdatabottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:.5rem;
+}
+
+.notificationdatabottomdate{
+    font-size: 10px;;
+    font-weight: 300;
+    color:rgb(69, 125, 230)
+}

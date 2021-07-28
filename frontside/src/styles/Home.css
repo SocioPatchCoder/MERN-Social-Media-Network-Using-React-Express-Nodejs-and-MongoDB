@@ -1,0 +1,24 @@
+.home{
+    width:1200px;
+    max-width:100%;
+    margin:1rem auto;
+    min-height:100vh;
+}
+
+.homemaincontainer{
+    display: flex;
+    justify-content: space-between;
+    margin:1rem 0;
+}
+.homemain-contentleft{
+    
+    flex:0.2;
+}
+.homemain-contentmid{
+    
+    flex:0.5;
+}
+.homemain-contentright{
+   
+    flex:0.2;
+}

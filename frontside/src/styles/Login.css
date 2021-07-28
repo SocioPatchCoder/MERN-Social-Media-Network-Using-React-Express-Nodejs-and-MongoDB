@@ -1,0 +1,92 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:20vh auto;
+    height:60vh;
+    width:60vw;
+    max-width:100%;
+    color:white;
+    
+    
+}
+.login-small{
+    padding:.5rem
+}
+.login-container{
+     /* background-color: var(--bg-color);  */
+     background: #615dfa;
+    padding:3rem;
+    border-radius:10px;
+}
+.login-header{
+    font-size:2rem;
+    text-align:center;
+    color: var(--text-color);
+    
+}
+.login-subheader{
+    font-size:1.4rem;
+    text-align: center;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.login-dataform{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.login-dataformemail{
+padding:.3rem;
+margin:1rem 0;
+border-radius:3px;
+outline:none;
+height: 1.5rem;
+width: 100%;
+border:2px solid var(--border-color);
+color:white;
+background-color:#4e4ac8;
+
+}
+
+.login-dataformpass{
+    
+    padding:.3rem;
+    margin:1rem 0;
+    height: 1.5rem;
+    width:100%;
+    border-radius:3px;
+    outline:none;
+    border:2px solid var(--border-color);
+    color:white;
+    background-color:#4e4ac8;
+    position: relative;
+}
+
+.login-showpass{
+position:fixed;
+top:51%;
+left:56%;
+background-color:var(--bg-color);
+padding:2px;
+border-radius:2px;
+vertical-align: middle;
+cursor: pointer;
+}
+.login-dataformbtn{
+
+padding:.3rem;
+border-radius:3px;
+border:2px solid var(--border-color);
+background-color:#4e4ac8;
+color:white;
+margin:1rem auto;
+width:50%;
+height:2.5rem;
+outline:none;
+}
